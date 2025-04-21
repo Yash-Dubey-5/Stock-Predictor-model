@@ -1,0 +1,43 @@
+<!-- index.html (Updated Login Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .signup-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        .signup-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <div id="message"></div>
+            <form id="loginForm">    
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <a href=..Signup/signup.html class="signup-link" target="">Don't have an account? Sign up</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
